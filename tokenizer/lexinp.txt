@@ -1,0 +1,361 @@
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
+Unknown - ,
+id
+Unknown - '
++
+Unknown - ,
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+Unknown - ,
+-
+Unknown - ,
+Unknown - â
+Unknown - ˆ
+Unknown - —
+Unknown - ,
+/
+Unknown - ,
+=
+Unknown - ,
+<
+Unknown - ,
+>
+Unknown - ,
+(
+Unknown - ,
+)
+Unknown - ,
+{
+Unknown - ,
+}
+Unknown - ,
+:=
+Unknown - ,
+;
+Unknown - ,
+and
+Unknown - ,
+else
+Unknown - ,
+end
+Unknown - ,
+id
+Unknown - ,
+id
+Unknown - ,
+if
+Unknown - ,
+int
+Unknown - ,
+do
+Unknown - ,
+id
+Unknown - ,
+float
+Unknown - ,
+not
+Unknown - ,
+or
+Unknown - ,
+print
+Unknown - ,
+prog
+Unknown - ,
+scan
+Unknown - ,
+id
+Unknown - ,
+then
+Unknown - ,
+while
+id
+-
+>
+prog
+id
+id
+end
+id
+-
+>
+id
+id
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+-
+>
+id
+id
+;
+id
+-
+>
+int
+Unknown - |
+float
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+id
+id
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+-
+>
+id
+Unknown - |
+id
+Unknown - |
+id
+Unknown - |
+id
+id
+-
+>
+id
+:=
+id
+;
+id
+-
+>
+if
+id
+then
+id
+id
+Unknown - '
+id
+-
+>
+while
+id
+do
+id
+end
+id
+-
+>
+print
+id
+Unknown - |
+scan
+id
+id
+-
+>
+id
+Unknown - |
+id
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+not
+id
+Unknown - |
+{
+id
+}
+Unknown - |
+id
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+id
+id
+Unknown - '
+id
+-
+>
+(
+id
+)
+Unknown - |
+id
+Unknown - |
+id
+Unknown - |
+id
+id
+Unknown - '
+-
+>
+or
+id
+id
+Unknown - '
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+Unknown - '
+-
+>
+and
+id
+id
+Unknown - '
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+Unknown - '
+-
+>
++
+id
+id
+Unknown - '
+Unknown - |
+-
+id
+id
+Unknown - '
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+Unknown - '
+-
+>
+Unknown - â
+Unknown - ˆ
+Unknown - —
+id
+id
+Unknown - '
+Unknown - |
+/
+id
+id
+Unknown - '
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+Unknown - '
+-
+>
+id
+id
+Unknown - '
+Unknown - |
+Unknown - â
+Unknown - ˆ
+Unknown - ˆ
+id
+Unknown - '
+-
+>
+=
+id
+Unknown - |
+<
+id
+Unknown - |
+>
+id
+id
+Unknown - '
+-
+>
+end
+Unknown - |
+else
+id
+end
