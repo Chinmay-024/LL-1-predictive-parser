@@ -1,0 +1,29 @@
+P
+AE, AE', BE, BE', D, DL, E, E', ES, F, IOS, IS, IS', NE, P, PE, RE, RE', S, SL, T, T', TY, VL, VL', WS
+(, ), +, -, /, :=, ;, <, =, >, and, do, else, end, fc, float, ic, id, if, int, not, or, print, prog, scan, str, then, while, {, }, ε, ∗
+P -> prog DL SL end
+DL -> D DL | ε
+D -> TY VL ;
+TY -> int | float
+VL -> id VL'
+SL -> S SL | ε
+S -> ES | IS | WS | IOS
+ES -> id := E ;
+IS -> if BE then SL IS'
+WS -> while BE do SL end
+IOS -> print PE | scan id
+PE -> E | str
+BE -> AE BE'
+AE -> NE AE'
+NE -> not NE | { BE } | RE
+RE -> E RE'
+E -> T E'
+T -> F T'
+F -> ( E ) | id | ic | fc
+BE' -> or AE BE' | ε
+AE' -> and NE AE' | ε
+E' -> + T E' | - T E' | ε
+T' -> ∗ F T' | / F T' | ε
+VL' ->  VL | ε
+IS' ->  end |  else SL end
+RE' ->  = E |  < E |  > E

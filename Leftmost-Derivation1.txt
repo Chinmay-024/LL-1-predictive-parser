@@ -1,0 +1,270 @@
+P
+ prog DL SL end
+ prog DL SL end
+ prog D DL SL end
+ prog TY VL ; DL SL end
+ prog int VL ; DL SL end
+ prog int VL ; DL SL end
+ prog int id VL' ; DL SL end
+ prog int id VL' ; DL SL end
+ prog int id ε ; DL SL end
+ prog int id ε ; DL SL end
+ prog int id ε ; DL SL end
+ prog int id ε ; D DL SL end
+ prog int id ε ; TY VL ; DL SL end
+ prog int id ε ; float VL ; DL SL end
+ prog int id ε ; float VL ; DL SL end
+ prog int id ε ; float id VL' ; DL SL end
+ prog int id ε ; float id VL' ; DL SL end
+ prog int id ε ; float id ε ; DL SL end
+ prog int id ε ; float id ε ; DL SL end
+ prog int id ε ; float id ε ; DL SL end
+ prog int id ε ; float id ε ; D DL SL end
+ prog int id ε ; float id ε ; TY VL ; DL SL end
+ prog int id ε ; float id ε ; int VL ; DL SL end
+ prog int id ε ; float id ε ; int VL ; DL SL end
+ prog int id ε ; float id ε ; int id VL' ; DL SL end
+ prog int id ε ; float id ε ; int id VL' ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; D DL SL end
+ prog int id ε ; float id ε ; int id ε ; TY VL ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int VL ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int VL ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id VL' ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id VL' ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; DL SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε ES SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := E ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := E ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := E ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := T E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := F T' E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic T' E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic T' E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε E' ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; IOS SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id IOS SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id IOS SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print PE SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print PE SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print E SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print T E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print F T' E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id T' E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id T' E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε E' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε IS SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if BE then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if BE then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if AE BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if NE AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if RE AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if E RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if T E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if F T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = E AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = E AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = T E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = F T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and NE AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and NE AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and RE AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and E RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and T E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and F T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id T' E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε E' RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε RE' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = E AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = E AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = T E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = F T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc T' E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε E' AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε AE' BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε BE' then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then S SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then ES SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := E ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := E ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := E ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := T E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := F T' E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic T' E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic T' E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε E' ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; SL IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε IS' SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else S SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else ES SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := F T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end S SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end WS SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while BE do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while BE do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while AE BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while NE AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while RE AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while E RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while T E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while F T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > E AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > E AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > T E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > F T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or AE BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or AE BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or NE AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or RE AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or E RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or T E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or F T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id T' E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε E' RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε RE' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < E AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < E AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < T E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < F T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic T' E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε E' AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε AE' BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε BE' do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do S SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do ES SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := F T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - F T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; S SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; ES SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := E ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := F T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + T E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + F T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id T' E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε E' ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; SL end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end SL end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end ε end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end ε end
+ prog int id ε ; float id ε ; int id ε ; int id ε ; ε id := ic ε ε ; scan id scan id print id ε ε if id ε ε = ic ε ε and id ε ε = fc ε ε ε ε then id := ic ε ε ; ε else id := fc ε ε ; ε end while id ε ε > ic ε ε ε or id ε ε < ic ε ε ε ε do id := id ε - ic ε ε ; id := id ε + id ε ε ; ε end ε end

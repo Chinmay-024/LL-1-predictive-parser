@@ -1,0 +1,269 @@
+P -> prog DL SL end
+prog -> 
+DL -> D DL
+D -> TY VL ;
+TY -> int
+int -> 
+VL -> id VL'
+id -> 
+VL' -> ε
+ε -> 
+; -> 
+DL -> D DL
+D -> TY VL ;
+TY -> float
+float -> 
+VL -> id VL'
+id -> 
+VL' -> ε
+ε -> 
+; -> 
+DL -> D DL
+D -> TY VL ;
+TY -> int
+int -> 
+VL -> id VL'
+id -> 
+VL' -> ε
+ε -> 
+; -> 
+DL -> D DL
+D -> TY VL ;
+TY -> int
+int -> 
+VL -> id VL'
+id -> 
+VL' -> ε
+ε -> 
+; -> 
+DL -> ε
+ε -> 
+SL -> S SL
+S -> ES
+ES -> id := E ;
+id -> 
+:= -> 
+E -> T E'
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+; -> 
+SL -> S SL
+S -> IOS
+IOS -> scan id
+scan -> 
+id -> 
+SL -> S SL
+S -> IOS
+IOS -> scan id
+scan -> 
+id -> 
+SL -> S SL
+S -> IOS
+IOS -> print PE
+print -> 
+PE -> E
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+SL -> S SL
+S -> IS
+IS -> if BE then SL IS'
+if -> 
+BE -> AE BE'
+AE -> NE AE'
+NE -> RE
+RE -> E RE'
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+RE' -> = E
+= -> 
+E -> T E'
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+AE' -> and NE AE'
+and -> 
+NE -> RE
+RE -> E RE'
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+RE' -> = E
+= -> 
+E -> T E'
+T -> F T'
+F -> fc
+fc -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+AE' -> ε
+ε -> 
+BE' -> ε
+ε -> 
+then -> 
+SL -> S SL
+S -> ES
+ES -> id := E ;
+id -> 
+:= -> 
+E -> T E'
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+; -> 
+SL -> ε
+ε -> 
+IS' -> else SL end
+else -> 
+SL -> S SL
+S -> ES
+ES -> id := E ;
+id -> 
+:= -> 
+E -> T E'
+T -> F T'
+F -> fc
+fc -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+; -> 
+SL -> ε
+ε -> 
+end -> 
+SL -> S SL
+S -> WS
+WS -> while BE do SL end
+while -> 
+BE -> AE BE'
+AE -> NE AE'
+NE -> RE
+RE -> E RE'
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+RE' -> > E
+> -> 
+E -> T E'
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+AE' -> ε
+ε -> 
+BE' -> or AE BE'
+or -> 
+AE -> NE AE'
+NE -> RE
+RE -> E RE'
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+RE' -> < E
+< -> 
+E -> T E'
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+AE' -> ε
+ε -> 
+BE' -> ε
+ε -> 
+do -> 
+SL -> S SL
+S -> ES
+ES -> id := E ;
+id -> 
+:= -> 
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> - T E'
+- -> 
+T -> F T'
+F -> ic
+ic -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+; -> 
+SL -> S SL
+S -> ES
+ES -> id := E ;
+id -> 
+:= -> 
+E -> T E'
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> + T E'
++ -> 
+T -> F T'
+F -> id
+id -> 
+T' -> ε
+ε -> 
+E' -> ε
+ε -> 
+; -> 
+SL -> ε
+ε -> 
+end -> 
+SL -> ε
+ε -> 
+end -> 

@@ -229,11 +229,13 @@ public:
     int ind;
     string label;
     vector<Node *> links;
+    int vis;
 
     Node(string l)
     {
         ind = nodeCounter++;
         label = l;
+        vis = 0;
     }
 };
 
@@ -283,6 +285,53 @@ void printLeftmostDerivation(Node *node, ofstream &derivationFile)
     for (Node *child : node->links)
     {
         printLeftmostDerivation(child, derivationFile);
+    }
+}
+
+void printLeftmostDerivationBFS(Node *root, ofstream &derivationFile)
+{
+    deque<Node *> bfsQueue;
+    bfsQueue.push_back(root);
+    string previousDerivation = root->label;
+    derivationFile << previousDerivation << "\n";
+
+    while (!bfsQueue.empty())
+    {
+        Node *currentNode = bfsQueue.front();
+        bfsQueue.pop_front();
+
+        string nextSymbol = "";
+        string der = "";
+        stringstream ss(previousDerivation);
+        vector<Node *> a;
+        while (getline(ss, nextSymbol, ' '))
+        {
+            if (nextSymbol == currentNode->label && currentNode->vis == 0)
+            {
+                currentNode->vis = 1;
+                if (currentNode->links.size() == 0)
+                {
+                    derivationFile << " " << nextSymbol;
+                    der += (" " + nextSymbol);
+                }
+                for (int i = 0; i < currentNode->links.size(); i++)
+                {
+                    derivationFile << " " << currentNode->links[i]->label;
+                    der += (" " + currentNode->links[i]->label);
+                    a.push_back(currentNode->links[i]);
+                }
+            }
+            else
+            {
+                derivationFile << " " << nextSymbol;
+                der += (" " + nextSymbol);
+            }
+        }
+        for (int i = a.size() - 1; i >= 0; i--)
+            bfsQueue.push_front(a[i]);
+        removeWhiteSpace(der);
+        previousDerivation = der;
+        derivationFile << endl;
     }
 }
 
@@ -689,6 +738,10 @@ int main()
     ofstream derivationFile("Leftmost-Derivation.txt");
     printLeftmostDerivation(root, derivationFile);
     derivationFile.close();
+
+    ofstream derivationFile1("Leftmost-Derivation1.txt");
+    printLeftmostDerivationBFS(root, derivationFile1);
+    derivationFile1.close();
     filename = "parse_table.txt";
     printParseTableToFile(parsingTable, nonTerminals, terminals, filename);
 

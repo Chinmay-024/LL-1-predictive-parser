@@ -1,0 +1,82 @@
+FIRST(() = { ( }
+FIRST()) = { ) }
+FIRST(+) = { + }
+FIRST(-) = { - }
+FIRST(/) = { / }
+FIRST(:=) = { := }
+FIRST(;) = { ; }
+FIRST(<) = { < }
+FIRST(=) = { = }
+FIRST(>) = { > }
+FIRST(AE) = { ( fc ic id not { }
+FIRST(AE') = { and ε }
+FIRST(BE') = { or ε }
+FIRST(D) = { float int }
+FIRST(DL) = { float int ε }
+FIRST(E) = { ( fc ic id }
+FIRST(E') = { + - ε }
+FIRST(ES) = { id }
+FIRST(F) = { ( fc ic id }
+FIRST(IOS) = { print scan }
+FIRST(IS) = { if }
+FIRST(IS') = { else end }
+FIRST(NE) = { ( fc ic id not { }
+FIRST(PE) = { ( fc ic id str }
+FIRST(RE) = { ( fc ic id }
+FIRST(RE') = { < = > }
+FIRST(S) = { id if print scan while }
+FIRST(SL) = { id if print scan while ε }
+FIRST(T) = { ( fc ic id }
+FIRST(T') = { / ε ∗ }
+FIRST(TY) = { float int }
+FIRST(VL) = { id }
+FIRST(VL') = { id ε }
+FIRST(WS) = { while }
+FIRST(and) = { and }
+FIRST(do) = { do }
+FIRST(else) = { else }
+FIRST(end) = { end }
+FIRST(fc) = { fc }
+FIRST(float) = { float }
+FIRST(ic) = { ic }
+FIRST(id) = { id }
+FIRST(if) = { if }
+FIRST(int) = { int }
+FIRST(not) = { not }
+FIRST(or) = { or }
+FIRST(print) = { print }
+FIRST(prog) = { prog }
+FIRST(scan) = { scan }
+FIRST(str) = { str }
+FIRST(then) = { then }
+FIRST(while) = { while }
+FIRST({) = { { }
+FIRST(}) = { } }
+FIRST(ε) = { ε }
+FIRST(∗) = { ∗ }
+FOLLOW(AE) = { do or then } }
+FOLLOW(AE') = { do or then } }
+FOLLOW(BE) = { do then } }
+FOLLOW(BE') = { do then } }
+FOLLOW(D) = { end float id if int print scan while }
+FOLLOW(DL) = { end id if print scan while }
+FOLLOW(E) = { ) ; < = > and do else end id if or print scan then while } }
+FOLLOW(E') = { ) ; < = > and do else end id if or print scan then while } }
+FOLLOW(ES) = { else end id if print scan while }
+FOLLOW(F) = { ) + - / ; < = > and do else end id if or print scan then while } ∗ }
+FOLLOW(IOS) = { else end id if print scan while }
+FOLLOW(IS) = { else end id if print scan while }
+FOLLOW(IS') = { else end id if print scan while }
+FOLLOW(NE) = { and do or then } }
+FOLLOW(P) = { $ }
+FOLLOW(PE) = { else end id if print scan while }
+FOLLOW(RE) = { and do or then } }
+FOLLOW(RE') = { and do or then } }
+FOLLOW(S) = { else end id if print scan while }
+FOLLOW(SL) = { else end }
+FOLLOW(T) = { ) + - ; < = > and do else end id if or print scan then while } }
+FOLLOW(T') = { ) + - ; < = > and do else end id if or print scan then while } }
+FOLLOW(TY) = { id }
+FOLLOW(VL) = { ; }
+FOLLOW(VL') = { ; }
+FOLLOW(WS) = { else end id if print scan while }
