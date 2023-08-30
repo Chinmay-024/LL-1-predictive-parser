@@ -674,6 +674,12 @@ int main()
     treeStack.push(dol);
     treeStack.push(root);
 
+    filename = "parse_table.txt";
+    printParseTableToFile(parsingTable, nonTerminals, terminals, filename);
+
+    filename = "parse_table.csv";
+    printParseTableToCSV(parsingTable, nonTerminals, terminals, filename);
+
     while (!parseStack.empty())
     {
         X = parseStack.top();
@@ -732,7 +738,7 @@ int main()
                  << "\033[31m" << X << "\033[0m"
                  << " and input value: "
                  << "\033[31m" << input[ip] << "\033[0m" << endl;
-            break;
+            return 0;
         }
     }
     ofstream derivationFile("Leftmost-Derivation.txt");
@@ -742,11 +748,6 @@ int main()
     ofstream derivationFile1("Leftmost-Derivation1.txt");
     printLeftmostDerivationBFS(root, derivationFile1);
     derivationFile1.close();
-    filename = "parse_table.txt";
-    printParseTableToFile(parsingTable, nonTerminals, terminals, filename);
-
-    filename = "parse_table.csv";
-    printParseTableToCSV(parsingTable, nonTerminals, terminals, filename);
 
     cout << "Leftmost derivation saved as Leftmost-Derivation.txt" << endl;
 
